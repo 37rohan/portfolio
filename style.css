@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
+*{
+    position: sticky; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    max-width: 100%;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+.example {
+    border: 1px dotted black;
+    overflow-y: scroll;
+}
+.example {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.justify-content-end{
+    margin-top: -40px;
+}
+.about{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1vw;
+}
+.card-size{
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    margin: auto;
+}
+/*{
+    font-family: sans-serif;
+    list-style: none;
+    padding:0;
+}*/
+.skills{
+    width:500px;
+    color: white;
+    list-style: none;
+}
+.my{
+    text-align: center;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 80%;
+    animation: html 12s;
+}
+.css{
+    width: 65%;
+    animation: css 12s;
+}
+.photography{
+    width: 55%;
+    animation: photography 12s;
+}
+.sql{
+    width: 50%;
+    animation: sql 12s;
+}
+.digital{
+    width: 45%;
+    animation: digital 12s;
+}
+.cprogram{
+    width: 40%;
+    animation: cprogram 12s;
+}
+.python{
+    width: 35%;
+    animation: python 12s;
+}
+
+@keyframes html{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes cprogram{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes digital{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 45%;
+    }
+}
+@keyframes photography{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 55%;
+    }
+}
+.container{
+    margin: auto;
+    max-width: max-content;
+}
+
+.profile{
+    padding: 19px;
+    word-spacing: 5px;
+}
+
+
+.zoom {
+    background-color: transparent;
+    transition: transform .10s;
+    margin: 0 auto;
+}
+  
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.email .text a{
+    text-decoration: none;
+    color: white;
+}
