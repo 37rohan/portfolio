@@ -8,12 +8,14 @@
     font-size: large;
     border-radius:3px;
 }
+html,body{
+    max-width: 100%;
+    margin: auto;
+    scroll-behavior: smooth;
+}
 footer{
     position: static;
-    bottom: 2rem;
-    width: 100%;
     background: black;
-    height: 191px;
 }
 .main-content{
     display: flex;
@@ -86,7 +88,6 @@ p{
 .main{
     position: static;
     width: 100%;
-    display: flex;
     padding: inherit;
 }
 .main .Box{
@@ -102,41 +103,6 @@ input{
 .msg{
     width: -webkit-fill-available;
 }
-/* .hero{
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-}
-h2{
-    overflow: hidden;
-    color: white;
-    font-family: monospace;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(15, end),
-    blink-text .5s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 50%;
-    }
-}
-
-@keyframes blink-text {
-    from, 
-    to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: orange;
-    }
-} */
 .Right button{
     background-color: transparent;
     color: white;
