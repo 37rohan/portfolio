@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
 *{
-    position: sticky; 
+    position: relative; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,11 +43,6 @@ body {
     overflow: hidden;
     margin: auto;
 }
-/*{
-    font-family: sans-serif;
-    list-style: none;
-    padding:0;
-}*/
 .skills{
     width:500px;
     color: white;

@@ -13,9 +13,21 @@ html,body{
     margin: auto;
     scroll-behavior: smooth;
 }
+.right{
+    text-align: center;
+    font-weight: bold;
+}
 footer{
-    position: static;
+    position: relative;
     background: black;
+}
+p{
+    text-align: center;
+    color: white;
+}
+.container-fluid p a{
+    color: white;
+    text-decoration: none;
 }
 .main-content{
     display: flex;
@@ -63,13 +75,6 @@ footer{
 }
 .center .social a .github:hover{
     background: rgb(39, 35, 35);
-}
-.right{
-    text-align: center;
-    font-weight: bold;
-}
-p{
-    text-align: center;
 }
 .float-end{
     float: right;
