@@ -73,19 +73,19 @@ body {
     animation: html 12s;
 }
 .css{
-    width: 65%;
+    width: 55%;
     animation: css 12s;
 }
 .photography{
-    width: 55%;
+    width: 50%;
     animation: photography 12s;
 }
 .sql{
-    width: 50%;
+    width: 60%;
     animation: sql 12s;
 }
 .digital{
-    width: 45%;
+    width: 55%;
     animation: digital 12s;
 }
 .cprogram{
@@ -93,7 +93,7 @@ body {
     animation: cprogram 12s;
 }
 .python{
-    width: 60%;
+    width: 70%;
     animation: python 12s;
 }
 
