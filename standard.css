@@ -1,57 +1,72 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: large;
-    border-radius:3px;
+    border-radius: 3px;
 }
-html,body{
+
+html,
+body {
     max-width: 100%;
     margin: auto;
     scroll-behavior: smooth;
 }
-.right{
+
+.right {
     text-align: center;
     font-weight: bold;
+    margin: auto;
 }
-footer{
+
+footer {
     position: relative;
     background: black;
 }
-p{
+
+p {
     text-align: center;
     color: white;
 }
-.container-fluid p a{
+
+.container-fluid p a {
     color: white;
     text-decoration: none;
 }
-.main-content{
+
+.main-content {
     display: flex;
 }
-.main-content .box{
+
+.main-content .box {
     flex-basis: 40%;
     padding: 10px 20px;
 }
-.box h2{
+
+.box h2 {
     font-size: 1.125rem;
     font-weight: 600;
     text-transform: uppercase;
 }
-.box .content{
+
+.box .content {
     margin: 20px 0 0 0;
 }
-.center .social{
-    margin: 20px 0 0 0 ;
+
+.center .social {
+    margin: 20px 0 0 0;
     align-items: center;
 }
-.center .social a{
+
+.center .social a {
     padding: 0 2px;
 }
-.center .social a span{
+
+.center .social a span {
     height: 40px;
     width: 40px;
     background: black;
@@ -61,54 +76,68 @@ p{
     border-radius: 5px;
     transition: 0.3s;
 }
-.center .social a span:hover{
+
+.center .social a span:hover {
     background: #2187e7b3;
 }
-.center .social a .face:hover{
+
+.center .social a .face:hover {
     background: #050e8d;
 }
-.center .social a .insta:hover{
+
+.center .social a .insta:hover {
     background: #da1862;
 }
-.center .social a .youtube:hover{
+
+.center .social a .youtube:hover {
     background: #f80000;
 }
-.center .social a .github:hover{
+
+.center .social a .github:hover {
     background: rgb(39, 35, 35);
 }
-.float-end{
+
+.float-end {
     float: right;
     display: block;
 }
-.container-fluid{
+
+.container-fluid {
     background: black;
     display: block;
     margin-top: 1rem;
 }
-.float-end{
+
+.float-end {
     text-align: right;
     margin-right: -15rem;
     margin-top: 4rem;
 }
-.main{
+
+.main {
     position: static;
     width: 100%;
     padding: inherit;
 }
-.main .Box{
+
+.main .Box {
     padding: 10px 20px;
 }
-.Left{
+
+.Left {
     flex-basis: 10%;
 }
-input{
+
+input {
     margin-right: 15rem;
     width: -webkit-fill-available;
 }
-.msg{
+
+.msg {
     width: -webkit-fill-available;
 }
-.Right button{
+
+.Right button {
     background-color: transparent;
     color: white;
     border-radius: 5px;
@@ -118,50 +147,44 @@ input{
 
 :root {
     --mainColor: rgb(255, 0, 0);
-    }
-  .right a {
+}
+
+.right a {
     background:
-       linear-gradient(
-         to right,
-         var(--mainColor) 0%,
-         var(--mainColor) 5px,
-         transparent 5px
-       );
+        linear-gradient(to right,
+            var(--mainColor) 0%,
+            var(--mainColor) 5px,
+            transparent 5px);
     text-decoration: none;
 }
-  
+
 .right a:hover {
     background:
-       linear-gradient(
-         to right,
-         var(--mainColor) 0%,
-         var(--mainColor) 5px,
-         transparent
-       );
+        linear-gradient(to right,
+            var(--mainColor) 0%,
+            var(--mainColor) 5px,
+            transparent);
 }
 
 :root {
     --mainColor: rgb(255, 0, 0);
-    }
-  .float-end a {
+}
+
+.float-end a {
     background:
-       linear-gradient(
-         to right,
-         var(--mainColor) 0%,
-         var(--mainColor) 5px,
-         transparent 5px
-       );
+        linear-gradient(to right,
+            var(--mainColor) 0%,
+            var(--mainColor) 5px,
+            transparent 5px);
     text-decoration: none;
 }
-  
+
 .float-end a:hover {
     background:
-       linear-gradient(
-         to right,
-         var(--mainColor) 0%,
-         var(--mainColor) 5px,
-         transparent
-       );
+        linear-gradient(to right,
+            var(--mainColor) 0%,
+            var(--mainColor) 5px,
+            transparent);
 }
 
 
@@ -171,9 +194,16 @@ input{
     padding: auto;
     margin: 0 auto;
 }
-  
+
 .Zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.25);
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.btn {
+    margin-top: 10px!important;
+    border: #050e8d!important;
 }
